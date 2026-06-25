@@ -1,0 +1,25 @@
+# FileForge - Python File Handling Project
+
+FileForge is a simple Python project that demonstrates basic file handling operations. It includes both a command-line version and a Streamlit web app version for creating, reading, updating, and deleting files.
+
+## Features
+
+- Create new files
+- Read file content
+- Update existing files
+  - Rename a file
+  - Append content
+  - Overwrite content
+- Delete files
+- Streamlit-based user interface
+- Stores app-managed files inside the `fileforge_files` folder
+
+## Project Structure
+
+```text
+NYC-filehandling-main/
+├── app.py                  # Streamlit web app
+├── main.py                 # Command-line file handling program
+├── spiderman.txt           # Sample text file
+└── fileforge_files/
+    └── hello.py            # Sample file
